@@ -1,14 +1,4 @@
----
-title:  flex布局使用小结
-author: 黎文欣
-tags: 前端
-categories:
-  - CSS
-blogexcerpt: 文字摘要
-date: 2018-01-14 21:32:51
-thumbnail:
----
-布局的传统解决方案，基于盒状模型，依赖display属性+position属性+float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。Flex是Flexible-Box的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性。任何一个容器都可以指定为Flex布局，行内元素也可以使用Flex布局，不管是什么布局，Flex往往都可以几行命令搞定，Flex布局将成为未来布局的首选方案。
+>布局的传统解决方案，基于盒状模型，依赖display属性+position属性+float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。Flex是Flexible-Box的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性。任何一个容器都可以指定为Flex布局，行内元素也可以使用Flex布局，不管是什么布局，Flex往往都可以几行命令搞定，Flex布局将成为未来布局的首选方案。
 
 - 采用Flex布局的元素，称为Flex容器（flex-container），简称"容器"。它的所有子元素自动成为容器成员，称为Flex项目（flex-item），简称"项目"。设为flex的容器可以设置以下六种属性flex-direction、flex-wrap、flex-flow、justify-content、align-items、align-content。注意，Webkit内核的浏览器，必须加上-webkit前缀，设为Flex布局以后，子元素的float、clear和vertical-align属性将失效。
 
