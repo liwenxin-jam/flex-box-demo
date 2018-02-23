@@ -234,8 +234,6 @@ align-self: auto | flex-start | flex-end | center | baseline | stretch;
 </html>
 ```
 
-如果需要上面栗子源码可以从本人github[flex-box-demo](https://github.com/liwenxin-jam/flex-box-demo "flex-box-demo")上下载。
-
 - 参考文献
 1、[Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 2、[Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
